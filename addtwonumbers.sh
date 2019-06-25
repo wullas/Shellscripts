@@ -4,8 +4,9 @@
  
 a=10
 b=20
+c=30
  
-# sum=$(( $a + $b ))
+# sum=$(( $a + $b + $c ))
 
-sum=`expr $a + $b`
+sum=`expr $a + $b + $c`
 echo $sum
